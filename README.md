@@ -1,6 +1,6 @@
 # chatty_bwa
 
-A new Flutter project.
+Membuat Tampilan Chatty sumber UI dari BWA
 
 ## Getting Started
 
