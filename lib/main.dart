@@ -1,3 +1,4 @@
+import 'package:chatty_bwa/pages/message_page.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/home_page.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Poppins'),
-      home: HomePage(),
+      home: MessagePage(),
     );
   }
 }
