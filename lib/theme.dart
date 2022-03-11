@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 Color blueColor = Color(0xff1F8DF5);
 Color whiteColor = Color(0xffffffff);
 Color white2Color = Color(0xfff8fafc);
+Color whiteChatColor = Color(0xffEBEFF3);
 Color lightBlueColor = Color(0xff9ED0FF);
 Color blackColor = Color(0xff2c3a59);
 Color greyColor = Color(0xff808BA2);
@@ -14,6 +15,12 @@ TextStyle textTitleStyleProfile =
 
 TextStyle textSubTitleStyleProfile =
     TextStyle(color: lightBlueColor, fontWeight: FontWeight.w400, fontSize: 14);
+
+TextStyle textChat =
+    TextStyle(color: greyDarkColor, fontWeight: FontWeight.w400, fontSize: 16);
+
+TextStyle textTimeChat =
+    TextStyle(color: greyDarkColor, fontWeight: FontWeight.w300, fontSize: 14);
 
 TextStyle textTitleStyle =
     TextStyle(color: blackColor, fontWeight: FontWeight.w500, fontSize: 16);

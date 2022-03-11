@@ -1,3 +1,4 @@
+import 'package:chatty_bwa/pages/message_page.dart';
 import 'package:chatty_bwa/theme.dart';
 import 'package:chatty_bwa/widgets/chat_tile.dart';
 import 'package:flutter/material.dart';
@@ -10,9 +11,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: blueColor,
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
+        onPressed: (){
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => MessagePage())
+          );
+        },
         backgroundColor: greenColor,
-        child: Icon(Icons.add, size: 20,),
+        child: const Icon(Icons.add, size: 20,),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       body: SafeArea(
@@ -47,8 +53,8 @@ class HomePage extends StatelessWidget {
               ),
               Container(
                 width: double.infinity,
-                padding: EdgeInsets.all(30),
-                decoration: BoxDecoration(
+                padding: const EdgeInsets.all(30),
+                decoration: const BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(40))),
                 child: Column(
@@ -72,7 +78,7 @@ class HomePage extends StatelessWidget {
                       time: '2:30',
                       unread: false,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 30,
                     ),
                     Text(
