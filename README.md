@@ -2,6 +2,16 @@
 
 Membuat Tampilan Chatty sumber UI dari BWA
 
+Tampilan Home
+
+<img src="ss/daftar_teman.jpeg" width="200" />
+
+Tampilan Chat
+
+<img src="ss/tampilan_chat.jpeg" width="200" />
+
+<img src="ss/keyborad_input.jpeg" width="200" />
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
